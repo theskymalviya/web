@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/web/static/css/main.6113a301.css",
-    "main.js": "/web/static/js/main.af589be5.js",
-    "static/media/service3.jpg": "/web/static/media/service3.307e6b99e2a4f26ee5b5.jpg",
-    "static/media/service2.jpg": "/web/static/media/service2.2a8e538486d7944af923.jpg",
-    "static/media/about.png": "/web/static/media/about.0b38b56dc7642af4e0af.png",
-    "static/media/service4.jpg": "/web/static/media/service4.ced302efea246a38ca5a.jpg",
-    "static/media/service5.jpg": "/web/static/media/service5.2f377c6caacd95ffee3f.jpg",
-    "static/media/home.png": "/web/static/media/home.593960b6732e1ce54f2b.png",
-    "static/media/service6.jpg": "/web/static/media/service6.a32ec0a052b7ec2f442f.jpg",
-    "static/media/service1.jpg": "/web/static/media/service1.e141cec757bbc6cf68d6.jpg",
-    "index.html": "/web/index.html",
-    "main.6113a301.css.map": "/web/static/css/main.6113a301.css.map",
-    "main.af589be5.js.map": "/web/static/js/main.af589be5.js.map"
+    "main.css": "/static/css/main.6113a301.css",
+    "main.js": "/static/js/main.e7d44a33.js",
+    "static/media/service3.jpg": "/static/media/service3.307e6b99e2a4f26ee5b5.jpg",
+    "static/media/service2.jpg": "/static/media/service2.2a8e538486d7944af923.jpg",
+    "static/media/about.png": "/static/media/about.0b38b56dc7642af4e0af.png",
+    "static/media/service4.jpg": "/static/media/service4.ced302efea246a38ca5a.jpg",
+    "static/media/service5.jpg": "/static/media/service5.2f377c6caacd95ffee3f.jpg",
+    "static/media/home.png": "/static/media/home.593960b6732e1ce54f2b.png",
+    "static/media/service6.jpg": "/static/media/service6.a32ec0a052b7ec2f442f.jpg",
+    "static/media/service1.jpg": "/static/media/service1.e141cec757bbc6cf68d6.jpg",
+    "index.html": "/index.html",
+    "main.6113a301.css.map": "/static/css/main.6113a301.css.map",
+    "main.e7d44a33.js.map": "/static/js/main.e7d44a33.js.map"
   },
   "entrypoints": [
     "static/css/main.6113a301.css",
-    "static/js/main.af589be5.js"
+    "static/js/main.e7d44a33.js"
   ]
 }
