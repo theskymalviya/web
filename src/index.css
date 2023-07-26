@@ -1,13 +1,94 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* Font  */
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700&display=swap");
+
+/* Variebles  */
+:root {
+  --main-color: #0087e2;
+  --text-dark-gray: hsl(0, 0%, 20%);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-family: "Mulish", sans-serif !important;
+  color: var(--text-dark-gray) !important;
+}
+
+/* btn  */
+.common-btn {
+  color: var(--main-color) !important;
+  border: 1px solid var(--main-color) !important;
+  font-weight: 500 !important;
+  text-transform: capitalize !important;
+  padding: 6px 20px !important;
+  transition: all 0.3s ease;
+}
+.common-btn:hover {
+  background-color: var(--main-color) !important;
+  color: #fff !important;
+}
+
+/* Navbar  */
+.navbar-brand {
+  color: var(--main-color) !important;
+}
+
+.nav-item {
+  padding: 0 15px;
+}
+
+.nav-link {
+  padding: 5px 0 !important;
+  font-weight: 400 !important;
+}
+
+.navbar-brand {
+  font-weight: 500 !important;
+}
+
+
+.nav-link:hover {
+  color: var(--main-color) !important;
+}
+
+.nav-link.active {
+  color: var(--main-color) !important;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none !important;
+}
+
+/* section  */
+section .brand {
+  color: var(--main-color) !important;
+}
+
+.animated{
+    animation: up-down 3s linear infinite;
+}
+
+.card-title{
+  color: var(--main-color) !important;
+}
+
+@keyframes up-down{
+    0%, 100%{
+        transform:  translateY(0);
+    }
+    50%{
+        transform:  translateY(-20px);
+    }
+}
+/* responsive  */
+
+@media (min-width: 767px) {
+  .section {
+    height: calc(100vh - 56px);
+  }
+}
+
+@media (max-width: 767px) {
+  .nav-item {
+    padding: 0;
+    border-bottom: 1px solid #00000017;
+  }
 }
