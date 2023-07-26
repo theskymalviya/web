@@ -20,8 +20,21 @@ const Contact = () => {
     });
   };
 
-  const clickEvent = (e) => {
-   
+const formSubmit = (e) => {
+    e.preventDefault()
+    alert(`Your Name: ${data.fname} ${data.lname}
+          Your Number: ${data.number}
+          Your Email: ${data.email} 
+          Your Message: ${data.message}`)
+    setData(()=>{
+      return {
+        fname:'',
+        lname:'',
+        number:'',
+        email:'',
+        message:'',
+      }
+    })
   };
 
   return (
@@ -29,7 +42,7 @@ const Contact = () => {
       <h1 className="text-center py-lg-4 py-2 ">Contact Us</h1>
       <div className="row">
         <div className="col-md-8 col-12 mx-auto">
-          <form className="border py-3 px-md-4 px-2 shadow-sm">
+          <form className="border py-3 px-md-4 px-2 shadow-sm" onSubmit={formSubmit}>
             <div className="mb-3">
               <label htmlFor="fname" className="form-label">
                 First Name
@@ -99,7 +112,7 @@ const Contact = () => {
                 rows={4}
               ></textarea>
             </div>
-            <Button type="submit" onClick={clickEvent} className=" common-btn">
+            <Button type="submit" className=" common-btn">
               {" "}
               Submit
             </Button>
